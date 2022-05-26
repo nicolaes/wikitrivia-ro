@@ -17,7 +17,7 @@ export function getRandomItem(deck: Item[], played: Item[]): Item {
   const avoidPeople = Math.random() > 0.5;
 
   const candidates = deck.filter((candidate) => {
-    if (avoidPeople && candidate.instance_of.includes("human")) {
+    if (avoidPeople && candidate.instance_of.includes("om")) {
       return false;
     }
 

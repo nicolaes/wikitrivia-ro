@@ -15,23 +15,23 @@ type Props = {
 };
 
 const datePropIdMap: { [datePropId: string]: string } = {
-  P575: "discovered", // or invented
-  P7589: "date of assent",
-  P577: "published",
-  P1191: "first performed",
-  P1619: "officially opened",
-  P571: "created",
-  P1249: "earliest record",
-  P576: "ended",
-  P8556: "became extinct",
-  P6949: "announced",
-  P1319: "earliest",
-  P569: "born",
-  P570: "died",
-  P582: "ended",
-  P580: "started",
-  P7125: "latest one",
-  P7124: "first one",
+  P575: "descoperire", // or invented
+  P7589: "promulgare",
+  P577: "publicare",
+  P1191: "premieră",
+  P1619: "deschidere oficială",
+  P571: "creație",
+  P1249: "prima atestare",
+  P576: "desființare",
+  P8556: "dispariție",
+  P6949: "anunț public",
+  P1319: "după cel devreme",
+  P569: "naștere",
+  P570: "deces",
+  P582: "până la",
+  P580: "de la",
+  P7125: "ultima instanță",
+  P7124: "prima instanță",
 };
 
 function capitalize(str: string): string {

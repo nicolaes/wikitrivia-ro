@@ -15,16 +15,16 @@ export default function Instructions(props: Props) {
   return (
     <div className={styles.instructions}>
       <div className={styles.wrapper}>
-        <h2>Place the cards on the timeline in the correct order.</h2>
+        <h2>Așează cartonașele în ordine cronologică.</h2>
         {highscore !== 0 && (
           <div className={styles.highscoreWrapper}>
-            <Score score={highscore} title="Best streak" />
+            <Score score={highscore} title="Cel mai bun scor" />
           </div>
         )}
-        <Button onClick={start} text="Start game" />
+        <Button onClick={start} text="Începe jocul" />
         <div className={styles.about}>
           <div>
-            All data sourced from{" "}
+            Toate datele preluate din{" "}
             <a
               href="https://www.wikidata.org"
               target="_blank"
@@ -32,7 +32,7 @@ export default function Instructions(props: Props) {
             >
               Wikidata
             </a>{" "}
-            and{" "}
+            și{" "}
             <a
               href="https://www.wikipedia.org"
               target="_blank"
@@ -41,11 +41,20 @@ export default function Instructions(props: Props) {
               Wikipedia
             </a>
             .
+            Jocul original creat de{" "}
+            <a
+                href="https://github.com/tom-james-watson/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              Tom Watson
+            </a>
+            .
           </div>
           <div>
-            Have feedback? Please report it on{" "}
+            Ai feedback? Postează-l pe{" "}
             <a
-              href="https://github.com/tom-james-watson/wikitrivia/issues/"
+              href="https://github.com/nicolaes/wikitrivia-ro/issues/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -54,10 +63,10 @@ export default function Instructions(props: Props) {
             .
           </div>
           <GitHubButton
-            href="https://github.com/tom-james-watson/wikitrivia"
+            href="https://github.com/nicolaes/wikitrivia-ro"
             data-size="large"
             data-show-count="true"
-            aria-label="Star tom-james-watson/wikitrivia on GitHub"
+            aria-label="Star nicolaes/wikitrivia-ro on GitHub"
           >
             Star
           </GitHubButton>
