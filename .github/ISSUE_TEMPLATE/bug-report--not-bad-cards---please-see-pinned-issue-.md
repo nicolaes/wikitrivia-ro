@@ -11,7 +11,7 @@ assignees: ''
 🛑 STOP - are you trying to report a bad card? 🛑
 
 Please don't open an issue to report a bad card.
-Please read https://github.com/tom-james-watson/wikitrivia/issues/12. Thank you.
+Please read https://github.com/nicolaes/wikitrivia-ro/discussions/2. Thank you.
 -->
 
 

@@ -1,6 +1,6 @@
 # Wiki Trivia
 
-This is the source code for the web app at https://wikitrivia.tomjwatson.com.
+This is the source code for the web app at https://wikitrivia.ro.
 
 The repository for the scraper can be found [here](https://github.com/tom-james-watson/wikitrivia-scraper).
 
@@ -44,4 +44,4 @@ The data is all sourced from [wikidata](https://www.wikidata.org).
 
 There are some cards that unfortunately don't quite make sense or have bad data. These need to be removed from the game and, ideally, to have their underlying wikidata entry fixed.
 
-Please report any bad cards here: https://github.com/tom-james-watson/wikitrivia/discussions/2.
+Please report any bad cards here: https://github.com/nicolaes/wikitrivia-ro/discussions/2.

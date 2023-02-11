@@ -43,7 +43,7 @@ export default function Instructions(props: Props) {
             .
             Jocul original creat de{" "}
             <a
-                href="https://github.com/tom-james-watson/"
+                href="https://github.com/tom-james-watson/wikitrivia"
                 target="_blank"
                 rel="noopener noreferrer"
             >
